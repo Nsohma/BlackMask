@@ -1,0 +1,47 @@
+{
+  "image": "/home/michael/soma/Bthesis_Dataset/02_sub_cell/C063_A010_sub.png",
+  "text_prompt": "face . eyes . mouth . arm . head . leg . nose . person .",
+  "entities": [
+    "face",
+    "eyes",
+    "mouth",
+    "arm",
+    "head",
+    "leg",
+    "nose",
+    "person"
+  ],
+  "pred_score_thr": 0.3,
+  "detections": [
+    {
+      "label": "person",
+      "score": 0.4588488042354584,
+      "bbox_xyxy": [
+        224.49447631835938,
+        0.14891201257705688,
+        1192.9962158203125,
+        873.288818359375
+      ]
+    },
+    {
+      "label": "leg",
+      "score": 0.33966314792633057,
+      "bbox_xyxy": [
+        564.5372924804688,
+        274.0829162597656,
+        1190.4998779296875,
+        594.8200073242188
+      ]
+    },
+    {
+      "label": "head",
+      "score": 0.3055153787136078,
+      "bbox_xyxy": [
+        559.3821411132812,
+        0.164885476231575,
+        965.2587280273438,
+        167.0900421142578
+      ]
+    }
+  ]
+}

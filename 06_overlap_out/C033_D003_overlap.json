@@ -1,0 +1,307 @@
+{
+  "image": "/home/michael/soma/Bthesis_Dataset/02_sub_cell/C033_D003_sub.png",
+  "lines_json": "/Users/niihosoushin/Desktop/BlackMask/05_raf_image_json/C033_D003_raf.json",
+  "bbox_json": "/Users/niihosoushin/Desktop/BlackMask/03_sub_cell/C033_D003_sub.json",
+  "criteria": {
+    "min_pixels": 10,
+    "min_ratio": 0.0005,
+    "judge_thresh": 0.02
+  },
+  "selected_labels": [
+    "eyes",
+    "eyes",
+    "face",
+    "face",
+    "face"
+  ],
+  "selected_detections": [
+    {
+      "det_index": 0,
+      "label": "eyes",
+      "score": 0.6196935772895813,
+      "bbox_xyxy": [
+        697.5798950195312,
+        391.4320373535156,
+        754.3469848632812,
+        449.34326171875
+      ],
+      "bbox_xyxy_int_inclusive": [
+        697,
+        391,
+        754,
+        449
+      ],
+      "ink_pixels": 965,
+      "bbox_area": 3422,
+      "ink_ratio": 0.2819988310929281,
+      "has_ink": true,
+      "judge_score": 0.17475286443145704
+    },
+    {
+      "det_index": 4,
+      "label": "eyes",
+      "score": 0.40884730219841003,
+      "bbox_xyxy": [
+        736.7319946289062,
+        286.30780029296875,
+        790.0123291015625,
+        334.67681884765625
+      ],
+      "bbox_xyxy_int_inclusive": [
+        736,
+        286,
+        790,
+        334
+      ],
+      "ink_pixels": 816,
+      "bbox_area": 2695,
+      "ink_ratio": 0.3027829313543599,
+      "has_ink": true,
+      "judge_score": 0.12379198463595642
+    },
+    {
+      "det_index": 6,
+      "label": "face",
+      "score": 0.32776862382888794,
+      "bbox_xyxy": [
+        872.9522705078125,
+        296.0745849609375,
+        962.61181640625,
+        401.2328796386719
+      ],
+      "bbox_xyxy_int_inclusive": [
+        872,
+        296,
+        962,
+        401
+      ],
+      "ink_pixels": 1747,
+      "bbox_area": 9646,
+      "ink_ratio": 0.18111134148869998,
+      "has_ink": true,
+      "judge_score": 0.05936261515955497
+    },
+    {
+      "det_index": 5,
+      "label": "face",
+      "score": 0.38332435488700867,
+      "bbox_xyxy": [
+        872.6649780273438,
+        295.2959899902344,
+        963.3230590820312,
+        452.5777282714844
+      ],
+      "bbox_xyxy_int_inclusive": [
+        872,
+        295,
+        963,
+        452
+      ],
+      "ink_pixels": 1928,
+      "bbox_area": 14536,
+      "ink_ratio": 0.13263621353880023,
+      "has_ink": true,
+      "judge_score": 0.05084269098941612
+    },
+    {
+      "det_index": 2,
+      "label": "face",
+      "score": 0.4664895832538605,
+      "bbox_xyxy": [
+        662.5552368164062,
+        285.07525634765625,
+        846.5415649414062,
+        519.8494262695312
+      ],
+      "bbox_xyxy_int_inclusive": [
+        662,
+        285,
+        846,
+        519
+      ],
+      "ink_pixels": 4208,
+      "bbox_area": 43475,
+      "ink_ratio": 0.09679125934445083,
+      "has_ink": true,
+      "judge_score": 0.0451521142342092
+    }
+  ],
+  "all_scored_detections": [
+    {
+      "det_index": 0,
+      "label": "eyes",
+      "score": 0.6196935772895813,
+      "bbox_xyxy": [
+        697.5798950195312,
+        391.4320373535156,
+        754.3469848632812,
+        449.34326171875
+      ],
+      "bbox_xyxy_int_inclusive": [
+        697,
+        391,
+        754,
+        449
+      ],
+      "ink_pixels": 965,
+      "bbox_area": 3422,
+      "ink_ratio": 0.2819988310929281,
+      "has_ink": true,
+      "judge_score": 0.17475286443145704
+    },
+    {
+      "det_index": 4,
+      "label": "eyes",
+      "score": 0.40884730219841003,
+      "bbox_xyxy": [
+        736.7319946289062,
+        286.30780029296875,
+        790.0123291015625,
+        334.67681884765625
+      ],
+      "bbox_xyxy_int_inclusive": [
+        736,
+        286,
+        790,
+        334
+      ],
+      "ink_pixels": 816,
+      "bbox_area": 2695,
+      "ink_ratio": 0.3027829313543599,
+      "has_ink": true,
+      "judge_score": 0.12379198463595642
+    },
+    {
+      "det_index": 6,
+      "label": "face",
+      "score": 0.32776862382888794,
+      "bbox_xyxy": [
+        872.9522705078125,
+        296.0745849609375,
+        962.61181640625,
+        401.2328796386719
+      ],
+      "bbox_xyxy_int_inclusive": [
+        872,
+        296,
+        962,
+        401
+      ],
+      "ink_pixels": 1747,
+      "bbox_area": 9646,
+      "ink_ratio": 0.18111134148869998,
+      "has_ink": true,
+      "judge_score": 0.05936261515955497
+    },
+    {
+      "det_index": 5,
+      "label": "face",
+      "score": 0.38332435488700867,
+      "bbox_xyxy": [
+        872.6649780273438,
+        295.2959899902344,
+        963.3230590820312,
+        452.5777282714844
+      ],
+      "bbox_xyxy_int_inclusive": [
+        872,
+        295,
+        963,
+        452
+      ],
+      "ink_pixels": 1928,
+      "bbox_area": 14536,
+      "ink_ratio": 0.13263621353880023,
+      "has_ink": true,
+      "judge_score": 0.05084269098941612
+    },
+    {
+      "det_index": 2,
+      "label": "face",
+      "score": 0.4664895832538605,
+      "bbox_xyxy": [
+        662.5552368164062,
+        285.07525634765625,
+        846.5415649414062,
+        519.8494262695312
+      ],
+      "bbox_xyxy_int_inclusive": [
+        662,
+        285,
+        846,
+        519
+      ],
+      "ink_pixels": 4208,
+      "bbox_area": 43475,
+      "ink_ratio": 0.09679125934445083,
+      "has_ink": true,
+      "judge_score": 0.0451521142342092
+    },
+    {
+      "det_index": 3,
+      "label": "head",
+      "score": 0.44218572974205017,
+      "bbox_xyxy": [
+        466.8916320800781,
+        9.358691215515137,
+        1298.020751953125,
+        544.3123168945312
+      ],
+      "bbox_xyxy_int_inclusive": [
+        466,
+        9,
+        1298,
+        544
+      ],
+      "ink_pixels": 9020,
+      "bbox_area": 446488,
+      "ink_ratio": 0.02020211069502428,
+      "has_ink": true,
+      "judge_score": 0.008933085060008988
+    },
+    {
+      "det_index": 1,
+      "label": "person",
+      "score": 0.5208312273025513,
+      "bbox_xyxy": [
+        466.8489074707031,
+        9.524299621582031,
+        1297.4052734375,
+        873.4186401367188
+      ],
+      "bbox_xyxy_int_inclusive": [
+        466,
+        9,
+        1297,
+        873
+      ],
+      "ink_pixels": 9770,
+      "bbox_area": 719680,
+      "ink_ratio": 0.013575477990217875,
+      "has_ink": true,
+      "judge_score": 0.007070532862863948
+    },
+    {
+      "det_index": 7,
+      "label": "nose",
+      "score": 0.31272459030151367,
+      "bbox_xyxy": [
+        814.3335571289062,
+        708.3203735351562,
+        844.4141235351562,
+        766.4391479492188
+      ],
+      "bbox_xyxy_int_inclusive": [
+        814,
+        708,
+        844,
+        766
+      ],
+      "ink_pixels": 0,
+      "bbox_area": 1829,
+      "ink_ratio": 0.0,
+      "has_ink": false,
+      "judge_score": 0.0
+    }
+  ]
+}

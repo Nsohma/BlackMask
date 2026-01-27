@@ -1,0 +1,105 @@
+{
+  "image": "/home/michael/soma/Bthesis_Dataset/02_sub_cell/C037_A001_sub.png",
+  "lines_json": "/Users/niihosoushin/Desktop/BlackMask/05_raf_image_json/C037_A001_raf.json",
+  "bbox_json": "/Users/niihosoushin/Desktop/BlackMask/03_sub_cell/C037_A001_sub.json",
+  "criteria": {
+    "min_pixels": 10,
+    "min_ratio": 0.0005,
+    "judge_thresh": 0.02
+  },
+  "selected_labels": [
+    "person"
+  ],
+  "selected_detections": [
+    {
+      "det_index": 1,
+      "label": "person",
+      "score": 0.3310450613498688,
+      "bbox_xyxy": [
+        186.95394897460938,
+        0.0,
+        1842.3082275390625,
+        1049.685302734375
+      ],
+      "bbox_xyxy_int_inclusive": [
+        186,
+        0,
+        1842,
+        1049
+      ],
+      "ink_pixels": 147970,
+      "bbox_area": 1739850,
+      "ink_ratio": 0.08504756157139984,
+      "has_ink": true,
+      "judge_score": 0.0281545752380608
+    }
+  ],
+  "all_scored_detections": [
+    {
+      "det_index": 1,
+      "label": "person",
+      "score": 0.3310450613498688,
+      "bbox_xyxy": [
+        186.95394897460938,
+        0.0,
+        1842.3082275390625,
+        1049.685302734375
+      ],
+      "bbox_xyxy_int_inclusive": [
+        186,
+        0,
+        1842,
+        1049
+      ],
+      "ink_pixels": 147970,
+      "bbox_area": 1739850,
+      "ink_ratio": 0.08504756157139984,
+      "has_ink": true,
+      "judge_score": 0.0281545752380608
+    },
+    {
+      "det_index": 2,
+      "label": "eyes",
+      "score": 0.31489798426628113,
+      "bbox_xyxy": [
+        468.1388854980469,
+        595.8507690429688,
+        540.7835693359375,
+        721.37353515625
+      ],
+      "bbox_xyxy_int_inclusive": [
+        468,
+        595,
+        540,
+        721
+      ],
+      "ink_pixels": 310,
+      "bbox_area": 9271,
+      "ink_ratio": 0.033437601121777585,
+      "has_ink": true,
+      "judge_score": 0.010529433191947702
+    },
+    {
+      "det_index": 0,
+      "label": "leg",
+      "score": 0.3698192238807678,
+      "bbox_xyxy": [
+        501.4017639160156,
+        799.2035522460938,
+        794.5650634765625,
+        1047.353759765625
+      ],
+      "bbox_xyxy_int_inclusive": [
+        501,
+        799,
+        794,
+        1047
+      ],
+      "ink_pixels": 1153,
+      "bbox_area": 73206,
+      "ink_ratio": 0.01575007513045379,
+      "has_ink": true,
+      "judge_score": 0.005824680560808203
+    }
+  ]
+}
