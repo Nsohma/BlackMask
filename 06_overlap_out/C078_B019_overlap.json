@@ -1,7 +1,7 @@
 {
   "image": "/home/michael/soma/Bthesis_Dataset/02_sub_cell/C078_B019_sub.png",
   "lines_json": "/Users/niihosoushin/Desktop/BlackMask/05_raf_image_json/C078_B019_raf.json",
-  "bbox_json": "/Users/niihosoushin/Desktop/BlackMask/03_sub_cell/C078_B019_sub.json",
+  "bbox_json": "/Users/niihosoushin/Desktop/BlackMask/04_output_grounding_dino_prompt_v1/C078_B019_sub.json",
   "criteria": {
     "min_pixels": 10,
     "min_ratio": 0.0005,

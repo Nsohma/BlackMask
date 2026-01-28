@@ -23,5 +23,7 @@ eval_tags.py : 手動のラベルと検出ラベルの正誤率判定のソー�
 #ファイル
 correct_label.txt : 手動で作った正解のタグデータ
 
-
+#物体検出
+v1 prompt : face . eyes . mouth . arm . head . leg . nose . person
+v2 prompt : face . eyes . mouth . arm . head . leg . nose . person . ears . clothes . eyebrows .
 

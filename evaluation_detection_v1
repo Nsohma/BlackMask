@@ -1,0 +1,25 @@
+N=52
+Micro  P=0.830 R=0.713 F1=0.767  (TP=186, FP=38, FN=75)
+Macro(avg-per-sample) F1=0.695  AvgJaccard=0.581  ExactMatch=0.096
+
+Per-label (P/R/F1, support):
+     arm  P=0.842 R=0.593 F1=0.696  support=27
+    eyes  P=0.853 R=0.935 F1=0.892  support=31
+    face  P=0.897 R=0.667 F1=0.765  support=39
+    head  P=0.897 R=0.833 F1=0.864  support=42
+     leg  P=0.440 R=1.000 F1=0.611  support=11
+   mouth  P=0.696 R=0.571 F1=0.627  support=28
+    nose  P=0.900 R=0.562 F1=0.692  support=32
+  person  P=1.000 R=0.686 F1=0.814  support=51
+
+Worst 10 samples by F1:
+  C017_B010: F1=0.000 Jacc=0.000  GT=['arm', 'person']  PRED=['eyes']  (tp=0, fp=1, fn=2)
+  C042_C009: F1=0.000 Jacc=0.000  GT=[]  PRED=['leg']  (tp=0, fp=1, fn=0)
+  C082_H003: F1=0.000 Jacc=0.000  GT=['face', 'head', 'mouth', 'person']  PRED=[]  (tp=0, fp=0, fn=4)
+  C030_B004: F1=0.286 Jacc=0.167  GT=['eyes', 'face', 'head', 'mouth', 'nose', 'person']  PRED=['eyes']  (tp=1, fp=0, fn=5)
+  C028_C00: F1=0.333 Jacc=0.200  GT=['eyes', 'face', 'head', 'person']  PRED=['eyes', 'mouth']  (tp=1, fp=1, fn=3)
+  C085_B016: F1=0.400 Jacc=0.250  GT=['arm', 'face', 'head', 'person']  PRED=['arm']  (tp=1, fp=0, fn=3)
+  C024_F013: F1=0.444 Jacc=0.286  GT=['arm', 'person']  PRED=['arm', 'eyes', 'head', 'leg', 'mouth', 'nose', 'person']  (tp=2, fp=5, fn=0)
+  C053_D001: F1=0.444 Jacc=0.286  GT=['arm', 'eyes', 'face', 'head', 'mouth', 'nose', 'person']  PRED=['head', 'person']  (tp=2, fp=0, fn=5)
+  C007_C015: F1=0.500 Jacc=0.333  GT=['arm', 'person']  PRED=['arm', 'mouth']  (tp=1, fp=1, fn=1)
+  C019_A_un001: F1=0.500 Jacc=0.333  GT=['arm', 'head', 'person']  PRED=['eyes', 'face', 'head', 'leg', 'person']  (tp=2, fp=3, fn=1)
