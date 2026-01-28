@@ -1,0 +1,219 @@
+{
+  "summary": "カット全体の要約（1〜2文）",
+  "subjects": [
+    {
+      "id": 1,
+      "bbox": [0.00, 0.00, 0.00, 0.00],
+      "cropping": { "value": "bust", "confidence": 0.00 },
+      "camera_angle": { "value": "front", "confidence": 0.00 },
+      "pose": [ { "description": "手を振る", "confidence": 0.00 } ],
+      "expression": [ { "description": "笑顔", "confidence": 0.00 } ]
+    }
+  ],
+  "interactions": [
+    {
+      "type": "conversation|handshake|gaze_contact|physical_contact|group_action",
+      "participants": [1, 2],
+      "description": "簡潔な要約（例：向かい合って会話）",
+      "confidence": 0.00
+    }
+  ],
+  "background": {
+    "description": "背景の要約（例：室内の教室、窓から昼光）",
+    "confidence": 0.00
+  },
+  "props": [
+    {
+      "name": "小物名（例：スマホ、刀、椅子、マグカップ）",
+      "bbox": [0.00, 0.00, 0.00, 0.00],
+      "confidence": 0.00
+    }
+  ]
+}
+
+
+
+C002_G011:
+
+
+C003_C002:
+id_all = 8
+(メインキャラ)
+full
+front
+座る
+無表情
+
+(小物)
+杖
+帽子
+椅子
+本
+
+C005_C009:
+id_all = 3
+(メインキャラ)
+bust
+front
+座る
+驚き
+
+(サブキャラ1)
+bust 
+back
+座る
+expression:None
+
+(サブキャラ2)
+bust
+back
+座る
+
+
+
+C007_C015:
+
+
+C010_B015:
+
+
+C012_A032:
+
+
+C013_B008:
+
+
+C014_A034:
+
+
+C015_B001:
+
+
+C016_D017:
+
+
+C017_B010:
+
+
+C018_B001:
+
+
+C019_A_un001:
+
+
+C023_A001:
+
+
+C024_F013:
+
+
+C024_F025:
+
+
+C028_C00:
+
+
+C029_A043:
+
+
+C030_B004:
+
+
+C033_D003:
+
+
+C035_B001:
+
+
+C036_C006_al:
+
+
+C037_A001:
+
+
+C040_B001:
+
+
+C041_C001:
+
+
+C042_C009:
+
+
+C043_C001:
+
+
+C044_C001:
+
+
+C053_D001:
+
+
+C056_F030:
+
+
+C057_A001:
+
+
+C058_E001:
+
+
+C063_A010:
+
+
+C064_C010:
+
+
+C067_C001:
+
+
+C068_D001:
+
+
+C073_F018:
+
+
+C076_F009:
+
+
+C077_B001:
+
+
+C078_B019:
+
+
+C079_C001:
+
+
+C082_H003:
+
+
+C084_C007:
+
+
+C085_B016:
+
+
+C088_B010:
+
+
+C089_A001:
+
+
+C092_A017:
+
+
+C094_A015:
+
+
+C095_A017:
+
+
+C096_A045:
+
+
+C097_A001:
+
+
+C098_A001:
+

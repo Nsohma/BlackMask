@@ -1,0 +1,537 @@
+C002_G011:
+id_count : 
+cropping :
+camera_angle :
+pose :
+expression :
+
+props :
+
+C003_C002:
+id_count : 8
+(メインキャラ)
+cropping : full 
+camera_angle : front
+pose : 座る
+expression : 無表情
+
+props : {杖、帽子、椅子、本}
+
+C005_C009:
+id_count : 3
+
+(メインキャラ)
+cropping :bust
+camera_angle :front
+pose :座る
+expression :驚き
+
+(サブキャラ1)
+cropping :bust 
+camera_angle :back
+pose :座る
+expression:None
+
+(サブキャラ2)
+cropping :bust 
+camera_angle :back
+pose :座る
+expression:None
+
+props:{帽子、椅子}
+
+C007_C015:
+id_count : 1
+cropping :bust
+camera_angle :front
+pose :座る
+expression:None
+
+props :{帽子、椅子}
+
+C010_B015:
+id_count : 3
+{メインキャラ}
+cropping :front
+camera_angle : three_quarter
+pose :立つ
+expression :笑顔
+
+props :{帽子、椅子、本}
+
+C012_A032:
+id_count : 1
+cropping :full
+camera_angle :profile
+pose : 跳ぶ
+expression:None
+
+props :{帽子、マント}
+
+C013_B008:
+id_count : 1
+cropping : full
+camera_angle : front
+pose : かがむ
+expression :None
+
+props :{帽子}
+
+C014_A034:
+id_count : 1
+cropping :bust
+camera_angle :front
+pose :{立つ、手を振る}
+expression :笑顔
+
+props :{帽子、マント、エフェクト}
+
+C015_B001:
+id_count : 7
+(メインキャラ)
+cropping :full
+camera_angle :front
+pose :{立つ、手を振る}
+expression :None
+
+props :{帽子、マント、エフェクト}
+
+C016_D017:
+id_count : 6
+cropping :bust
+camera_angle :front
+pose :{立つ、手を振る}
+expression :笑顔
+
+props :{帽子、椅子、杖}
+
+C017_B010:
+id_count : 1
+cropping : close_up
+camera_angle :{front}
+pose :None
+expression :None
+
+props :{杖}
+
+C018_B001:
+id_count : 1
+cropping : bust
+camera_angle :three_quarter
+pose :{立つ、手を振る}
+expression :無表情
+
+props :{帽子、マント、杖}
+
+C019_A_un001:
+id_count : 7
+(メインキャラ)
+cropping :full
+camera_angle :front
+pose :{立つ}
+expression :None
+
+props :{帽子、マント、エフェクト}
+
+C023_A001:
+id_count : 1
+cropping :full
+camera_angle : three_quarter
+pose :立つ
+expression :None
+
+props :{帽子、杖、エフェクト}
+
+C024_F013:
+id_count : 1
+cropping : bust
+camera_angle :three_quarter
+pose : 立つ
+expression :笑顔
+
+props :{帽子、妖精}
+
+C024_F025:
+id_count : 1
+cropping : bust
+camera_angle :three_quarter
+pose : 立つ
+expression :無表情
+
+props :{帽子、妖精}
+
+C028_C00:
+id_count : 1
+cropping : bust
+camera_angle : three_quarter
+pose :目を瞑る
+expression :緊張
+
+props :{帽子}
+
+C029_A043:
+id_count : 1
+cropping :full
+camera_angle :three_quarter
+pose :立つ
+expression :無表情
+
+props :{箒、帽子}
+
+C030_B004:
+id_count : 1
+cropping : close_up
+camera_angle : profile
+pose : None
+expression :None
+
+props :{帽子、杖}
+
+C033_D003:
+id_count : 1
+cropping :bust
+camera_angle :profile
+pose :座る
+expression :笑顔
+
+props :帽子
+
+C035_B001:
+id_count : 1
+cropping :full
+camera_angle :profile
+pose :立つ
+expression :None
+
+props :{帽子、箒}
+
+C036_C006_al:
+id_count : 1
+cropping :bust
+camera_angle :three_quarter
+pose :座る
+expression :驚き
+
+props :{帽子、椅子}
+
+C037_A001:
+id_count : 1
+cropping : close_up
+camera_angle : front
+pose :None
+expression :None
+
+props :None
+
+C040_B001:
+id_count : 6
+(メインキャラ)
+cropping : bust
+camera_angle : three_quarter
+pose :座る
+expression : 驚き
+
+props : {帽子、椅子}
+
+C041_C001:
+id_count : 1
+cropping :close_up
+camera_angle :front
+pose :None
+expression :None
+
+props :None
+
+C042_C009:
+id_count : 1
+cropping : full
+camera_angle :None
+pose :None
+expression :None
+
+props :None
+
+C043_C001:
+id_count : 1
+cropping :bust
+camera_angle :three_quarter
+pose :座る
+expression :驚き
+
+props :
+
+C044_C001:
+id_count : 1
+cropping :close_up
+camera_angle :front
+pose :None
+expression :None
+
+props :None
+
+C053_D001:
+id_count : 17
+(メインキャラ)
+cropping :bust
+camera_angle :three_quarter
+pose :座る
+expression :無表情
+
+props :{本、筆箱、鉛筆}
+
+C056_F030:
+id_count : 5
+(メインキャラ)
+cropping :bust
+camera_angle :three_quarter
+pose :座る
+expression :困惑
+
+props :{本、筆箱}
+
+C057_A001:
+id_count : 1
+cropping : full
+camera_angle :three_quarter
+pose :立つ
+expression :無表情
+
+props :{帽子、杖}
+
+C058_E001:
+id_count : 14
+cropping :bust
+camera_angle :three_quarter
+pose :座る
+expression :None
+
+props :None
+
+C063_A010:
+id_count : 1
+cropping : close_up
+camera_angle : three_quarter
+pose :None
+expression :None
+
+props :None
+
+C064_C010:
+id_count : 4
+cropping :bust
+camera_angle :profile
+pose :座る
+expression :困惑
+
+props :{本、机、椅子}
+
+C067_C001:
+id_count : 7
+cropping :bust
+camera_angle :back
+pose :None
+expression :None
+
+props :{帽子、本}
+
+C068_D001:
+id_count : 4
+cropping :bust
+camera_angle :three_quarter
+pose :立つ
+expression :無表情
+
+props :{本、帽子}
+
+C073_F018:
+id_count : 2
+(メインキャラ)
+cropping :bust
+camera_angle :three_quarter
+pose :立つ
+expression :困惑
+
+(サブキャラ)
+cropping :bust
+camera_angle :profile
+pose :立つ
+expression :怒る
+
+props :None
+
+C076_F009:
+id_count :2 
+(メインキャラ)
+cropping :bust
+camera_angle :three_quarter
+pose :立つ
+expression :怒る
+
+(サブキャラ)
+cropping :bust
+camera_angle :three_quarter
+pose :立つ
+expression :無表情
+
+props :None
+
+C077_B001:
+id_count : 5
+(メインキャラ)
+cropping : bust
+camera_angle :three_quarter
+pose :{立つ、歩く}
+expression :無表情
+
+(サブキャラ)
+cropping : bust
+camera_angle :three_quarter
+pose :{立つ、歩く}
+expression :無表情
+
+props :{椅子、本}
+
+C078_B019:
+id_count : 8
+(メインキャラ)
+cropping :full
+camera_angle :front
+pose :立つ
+expression :無表情
+
+(サブキャラ)
+cropping :full
+camera_angle :front
+pose :立つ
+expression :無表情
+
+(サブキャラ)
+cropping :full
+camera_angle :front
+pose :立つ
+expression :無表情
+
+props :本
+
+C079_C001:
+id_count : 11
+cropping : full
+camera_angle :front
+pose :立つ
+expression :None
+
+props :{本、椅子、机}
+
+C082_H003:
+id_count : 5
+(メインキャラ)
+cropping :bust
+camera_angle :front
+pose :立つ
+expression :無表情
+
+(サブキャラ)
+cropping :bust
+camera_angle :front
+pose :立つ
+expression :無表情
+
+(サブキャラ)
+cropping :bust
+camera_angle :front
+pose :立つ
+expression :無表情
+
+props :机
+
+C084_C007:
+id_count : 7
+cropping :full
+camera_angle :front
+pose :立つ
+expression :None
+
+props :{机、旗、箒}
+
+C085_B016:
+id_count : 5
+cropping :bust
+camera_angle :front
+pose :立つ
+expression :無表情
+
+props :{帽子、箒}
+
+C088_B010:
+id_count : 1
+cropping : bust
+camera_angle : three_quarter
+pose :立つ
+expression :驚き
+
+props :{箒、帽子}
+
+C089_A001:
+id_count : 1
+cropping :close_up
+camera_angle :high
+pose :立つ
+expression :None
+
+props :None
+
+C092_A017:
+id_count : 1
+cropping :full
+camera_angle :low
+pose :None
+expression :None
+
+props :{箒}
+
+C094_A015:
+id_count : 1
+cropping :full
+camera_angle :front
+pose :{立つ、持つ}
+expression :困惑
+
+props :箒
+
+C095_A017:
+id_count : 1
+cropping :full
+camera_angle :low
+pose :持つ
+expression :驚き
+
+props :箒
+
+C096_A045:
+id_count : 1
+cropping :full
+camera_angle :back
+pose :持つ
+expression :驚き
+
+props :箒
+
+C097_A001:
+id_count : 1
+cropping :close_up
+camera_angle :None
+pose :持つ
+expression :困惑
+
+props :None
+
+C098_A001:
+id_count : 5
+cropping :bust
+camera_angle :
+pose :three_quarter
+expression :None
+
+props :箒
+
+
