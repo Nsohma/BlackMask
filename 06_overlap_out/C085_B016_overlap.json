@@ -1,7 +1,7 @@
 {
-  "image": "/home/michael/soma/Bthesis_Dataset/02_sub_cell/C085_B016_sub.png",
+  "image": "/home/michael/soma/Bthesis_Dataset/03_sub_cell/C085_B016_sub.png",
   "lines_json": "/Users/niihosoushin/Desktop/BlackMask/05_raf_image_json/C085_B016_raf.json",
-  "bbox_json": "/Users/niihosoushin/Desktop/BlackMask/04_output_grounding_dino_prompt_v1/C085_B016_sub.json",
+  "bbox_json": "/Users/niihosoushin/Desktop/BlackMask/10_output_groundingdino_swiml_prompt_v1/C085_B016_sub.json",
   "criteria": {
     "min_pixels": 10,
     "min_ratio": 0.0005,
@@ -12,224 +12,246 @@
   ],
   "selected_detections": [
     {
-      "det_index": 2,
+      "det_index": 3,
       "label": "arm",
-      "score": 0.43552297353744507,
+      "score": 0.49832701683044434,
       "bbox_xyxy": [
-        1021.9644775390625,
-        503.6846618652344,
-        1168.302490234375,
-        836.5925903320312
+        1020.0071411132812,
+        497.6164855957031,
+        1169.742919921875,
+        835.865234375
       ],
       "bbox_xyxy_int_inclusive": [
-        1021,
-        503,
-        1168,
-        836
+        1020,
+        497,
+        1169,
+        835
       ],
-      "ink_pixels": 2912,
-      "bbox_area": 49432,
-      "ink_ratio": 0.05890920860980741,
+      "ink_pixels": 2923,
+      "bbox_area": 50850,
+      "ink_ratio": 0.05748279252704031,
       "has_ink": true,
-      "judge_score": 0.025656313702480983
+      "judge_score": 0.028645228519083358
     }
   ],
   "all_scored_detections": [
     {
-      "det_index": 2,
+      "det_index": 3,
       "label": "arm",
-      "score": 0.43552297353744507,
+      "score": 0.49832701683044434,
       "bbox_xyxy": [
-        1021.9644775390625,
-        503.6846618652344,
-        1168.302490234375,
-        836.5925903320312
-      ],
-      "bbox_xyxy_int_inclusive": [
-        1021,
-        503,
-        1168,
-        836
-      ],
-      "ink_pixels": 2912,
-      "bbox_area": 49432,
-      "ink_ratio": 0.05890920860980741,
-      "has_ink": true,
-      "judge_score": 0.025656313702480983
-    },
-    {
-      "det_index": 8,
-      "label": "face",
-      "score": 0.31103751063346863,
-      "bbox_xyxy": [
-        1103.372802734375,
-        259.4049987792969,
-        1296.0970458984375,
-        450.15045166015625
-      ],
-      "bbox_xyxy_int_inclusive": [
-        1103,
-        259,
-        1296,
-        450
-      ],
-      "ink_pixels": 855,
-      "bbox_area": 37248,
-      "ink_ratio": 0.02295425257731959,
-      "has_ink": true,
-      "judge_score": 0.0071396335801013665
-    },
-    {
-      "det_index": 1,
-      "label": "person",
-      "score": 0.4889705181121826,
-      "bbox_xyxy": [
-        877.7997436523438,
-        52.51423645019531,
-        1521.9959716796875,
-        873.3673095703125
-      ],
-      "bbox_xyxy_int_inclusive": [
-        877,
-        52,
-        1521,
-        873
-      ],
-      "ink_pixels": 7741,
-      "bbox_area": 530190,
-      "ink_ratio": 0.014600426262283332,
-      "has_ink": true,
-      "judge_score": 0.0071391779941273985
-    },
-    {
-      "det_index": 5,
-      "label": "head",
-      "score": 0.3811202645301819,
-      "bbox_xyxy": [
-        1020.0489501953125,
-        53.048973083496094,
-        1367.8934326171875,
-        464.7055358886719
+        1020.0071411132812,
+        497.6164855957031,
+        1169.742919921875,
+        835.865234375
       ],
       "bbox_xyxy_int_inclusive": [
         1020,
-        53,
-        1367,
-        464
+        497,
+        1169,
+        835
       ],
-      "ink_pixels": 1515,
-      "bbox_area": 143376,
-      "ink_ratio": 0.010566622028791429,
+      "ink_pixels": 2923,
+      "bbox_area": 50850,
+      "ink_ratio": 0.05748279252704031,
       "has_ink": true,
-      "judge_score": 0.004027153782803436
+      "judge_score": 0.028645228519083358
     },
     {
-      "det_index": 6,
-      "label": "head",
-      "score": 0.37853384017944336,
+      "det_index": 1,
+      "label": "face",
+      "score": 0.647563636302948,
       "bbox_xyxy": [
-        879.6272583007812,
-        53.001243591308594,
-        1522.1412353515625,
-        466.16912841796875
+        1103.3446044921875,
+        255.9115447998047,
+        1292.0269775390625,
+        448.33758544921875
       ],
       "bbox_xyxy_int_inclusive": [
-        879,
-        53,
-        1522,
-        466
+        1103,
+        255,
+        1292,
+        448
       ],
-      "ink_pixels": 2312,
-      "bbox_area": 266616,
-      "ink_ratio": 0.00867164761304648,
+      "ink_pixels": 863,
+      "bbox_area": 36860,
+      "ink_ratio": 0.023412913727618015,
       "has_ink": true,
-      "judge_score": 0.0032825120716493874
-    },
-    {
-      "det_index": 0,
-      "label": "nose",
-      "score": 0.5055258274078369,
-      "bbox_xyxy": [
-        1167.1717529296875,
-        353.5535583496094,
-        1189.2020263671875,
-        372.4978942871094
-      ],
-      "bbox_xyxy_int_inclusive": [
-        1167,
-        353,
-        1189,
-        372
-      ],
-      "ink_pixels": 0,
-      "bbox_area": 460,
-      "ink_ratio": 0.0,
-      "has_ink": false,
-      "judge_score": 0.0
-    },
-    {
-      "det_index": 3,
-      "label": "eyes",
-      "score": 0.43525922298431396,
-      "bbox_xyxy": [
-        1197.7685546875,
-        311.1271667480469,
-        1212.0933837890625,
-        340.30169677734375
-      ],
-      "bbox_xyxy_int_inclusive": [
-        1197,
-        311,
-        1212,
-        340
-      ],
-      "ink_pixels": 0,
-      "bbox_area": 480,
-      "ink_ratio": 0.0,
-      "has_ink": false,
-      "judge_score": 0.0
+      "judge_score": 0.01516135154990353
     },
     {
       "det_index": 4,
-      "label": "eyes",
-      "score": 0.3988168239593506,
+      "label": "arm",
+      "score": 0.49554407596588135,
       "bbox_xyxy": [
-        1118.8133544921875,
-        335.5877380371094,
-        1133.3948974609375,
-        363.62255859375
+        1256.4359130859375,
+        520.4024047851562,
+        1505.9620361328125,
+        859.2335205078125
       ],
       "bbox_xyxy_int_inclusive": [
-        1118,
-        335,
-        1133,
-        363
+        1256,
+        520,
+        1505,
+        859
+      ],
+      "ink_pixels": 2253,
+      "bbox_area": 85000,
+      "ink_ratio": 0.026505882352941178,
+      "has_ink": true,
+      "judge_score": 0.013134832978248598
+    },
+    {
+      "det_index": 2,
+      "label": "person",
+      "score": 0.5972811579704285,
+      "bbox_xyxy": [
+        878.2606201171875,
+        52.08891296386719,
+        1520.828125,
+        873.1103515625
+      ],
+      "bbox_xyxy_int_inclusive": [
+        878,
+        52,
+        1520,
+        873
+      ],
+      "ink_pixels": 7741,
+      "bbox_area": 528546,
+      "ink_ratio": 0.01464583971877566,
+      "has_ink": true,
+      "judge_score": 0.00874768410667962
+    },
+    {
+      "det_index": 6,
+      "label": "eyes",
+      "score": 0.4681967496871948,
+      "bbox_xyxy": [
+        1100.562255859375,
+        269.69970703125,
+        1290.482666015625,
+        390.9519348144531
+      ],
+      "bbox_xyxy_int_inclusive": [
+        1100,
+        269,
+        1290,
+        390
+      ],
+      "ink_pixels": 360,
+      "bbox_area": 23302,
+      "ink_ratio": 0.015449317655136898,
+      "has_ink": true,
+      "judge_score": 0.0072333203110200904
+    },
+    {
+      "det_index": 7,
+      "label": "head",
+      "score": 0.3963063359260559,
+      "bbox_xyxy": [
+        1032.18994140625,
+        214.26177978515625,
+        1364.6575927734375,
+        459.55950927734375
+      ],
+      "bbox_xyxy_int_inclusive": [
+        1032,
+        214,
+        1364,
+        459
+      ],
+      "ink_pixels": 1401,
+      "bbox_area": 81918,
+      "ink_ratio": 0.017102468321980518,
+      "has_ink": true,
+      "judge_score": 0.006777816555975541
+    },
+    {
+      "det_index": 8,
+      "label": "head",
+      "score": 0.3510262072086334,
+      "bbox_xyxy": [
+        882.1554565429688,
+        55.636348724365234,
+        1515.158203125,
+        467.5238952636719
+      ],
+      "bbox_xyxy_int_inclusive": [
+        882,
+        55,
+        1515,
+        467
+      ],
+      "ink_pixels": 2324,
+      "bbox_area": 261842,
+      "ink_ratio": 0.008875581457520184,
+      "has_ink": true,
+      "judge_score": 0.0031155616958045847
+    },
+    {
+      "det_index": 0,
+      "label": "mouth",
+      "score": 0.7070170640945435,
+      "bbox_xyxy": [
+        1177.414794921875,
+        395.3933410644531,
+        1211.192138671875,
+        428.95867919921875
+      ],
+      "bbox_xyxy_int_inclusive": [
+        1177,
+        395,
+        1211,
+        428
       ],
       "ink_pixels": 0,
-      "bbox_area": 464,
+      "bbox_area": 1190,
       "ink_ratio": 0.0,
       "has_ink": false,
       "judge_score": 0.0
     },
     {
-      "det_index": 7,
-      "label": "mouth",
-      "score": 0.3575001358985901,
+      "det_index": 5,
+      "label": "nose",
+      "score": 0.47133100032806396,
       "bbox_xyxy": [
-        1243.23583984375,
-        181.9318389892578,
-        1321.9771728515625,
-        256.5358581542969
+        1170.7159423828125,
+        348.0013732910156,
+        1218.662841796875,
+        394.8411560058594
       ],
       "bbox_xyxy_int_inclusive": [
-        1243,
-        181,
-        1321,
-        256
+        1170,
+        348,
+        1218,
+        394
       ],
-      "ink_pixels": 6,
-      "bbox_area": 6004,
-      "ink_ratio": 0.000999333777481679,
+      "ink_pixels": 0,
+      "bbox_area": 2303,
+      "ink_ratio": 0.0,
+      "has_ink": false,
+      "judge_score": 0.0
+    },
+    {
+      "det_index": 9,
+      "label": "nose",
+      "score": 0.3131466805934906,
+      "bbox_xyxy": [
+        1163.4747314453125,
+        337.5467224121094,
+        1198.7860107421875,
+        372.4576416015625
+      ],
+      "bbox_xyxy_int_inclusive": [
+        1163,
+        337,
+        1198,
+        372
+      ],
+      "ink_pixels": 0,
+      "bbox_area": 1296,
+      "ink_ratio": 0.0,
       "has_ink": false,
       "judge_score": 0.0
     }

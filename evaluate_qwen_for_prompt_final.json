@@ -1,0 +1,209 @@
+{
+  "counts": {
+    "N": 51,
+    "exact_acc": 0.7254901960784313,
+    "within1_acc": 0.8627450980392157,
+    "mae": 0.9215686274509803
+  },
+  "attributes_aligned": {
+    "N_samples": 46,
+    "avg_aligned_mean": 0.590782436162871,
+    "avg_penalized_mean": 0.5065885955831607,
+    "avg_unmatched_count": 0.5,
+    "per_attribute_accuracy_include_none": {
+      "cropping": 0.6951219512195121,
+      "camera_angle": 0.4146341463414634,
+      "pose": 0.6341463414634146,
+      "expression": 0.3170731707317073
+    },
+    "per_attribute_accuracy_exclude_none": {
+      "cropping": 0.6951219512195121,
+      "camera_angle": 0.4473684210526316,
+      "pose": 0.6944444444444444,
+      "expression": 0.3770491803278688
+    },
+    "totals_include_none": {
+      "cropping": 82,
+      "camera_angle": 82,
+      "pose": 82,
+      "expression": 82
+    },
+    "totals_exclude_none": {
+      "cropping": 82,
+      "camera_angle": 76,
+      "pose": 72,
+      "expression": 61
+    }
+  },
+  "props": {
+    "N": 51,
+    "TP": 35,
+    "FP": 69,
+    "FN": 62,
+    "micro_precision": 0.33653846153846156,
+    "micro_recall": 0.36082474226804123,
+    "micro_f1": 0.34825870646766177,
+    "avg_jaccard": 0.2934640522875817,
+    "exact_match": 0.1568627450980392
+  },
+  "interactions_type_only": {
+    "N": 51,
+    "TP": 8,
+    "FP": 21,
+    "FN": 5,
+    "micro_precision": 0.27586206896551724,
+    "micro_recall": 0.6153846153846154,
+    "micro_f1": 0.380952380952381,
+    "avg_jaccard": 0.696078431372549,
+    "exact_match": 0.6666666666666666
+  },
+  "missing_pred_for_gt": [
+    "C036_C006_al"
+  ],
+  "missing_gt_for_pred": [],
+  "worst10_by_aligned_mean": [
+    {
+      "id": "C042_C009",
+      "aligned_mean": 0.0,
+      "penalized_mean": 0.0,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "C010_B015",
+      "aligned_mean": 0.25,
+      "penalized_mean": 0.25,
+      "gtN": 3,
+      "predM": 3,
+      "pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "C018_B001",
+      "aligned_mean": 0.25,
+      "penalized_mean": 0.25,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "C024_F025",
+      "aligned_mean": 0.25,
+      "penalized_mean": 0.25,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "C028_C00",
+      "aligned_mean": 0.25,
+      "penalized_mean": 0.25,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "C033_D003",
+      "aligned_mean": 0.25,
+      "penalized_mean": 0.25,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "C035_B001",
+      "aligned_mean": 0.25,
+      "penalized_mean": 0.25,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "C013_B008",
+      "aligned_mean": 0.3333333333333333,
+      "penalized_mean": 0.3333333333333333,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "C019_A_un001",
+      "aligned_mean": 0.3333333333333333,
+      "penalized_mean": 0.3333333333333333,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "C063_A010",
+      "aligned_mean": 0.3333333333333333,
+      "penalized_mean": 0.3333333333333333,
+      "gtN": 1,
+      "predM": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "notes": {
+    "alignment": "order-preserving optimal alignment via DP; alignment score ignores GT-None attributes",
+    "props": "evaluated as set; beware naming variants unless normalized",
+    "interactions": "type-only evaluation (participants ignored)"
+  }
+}

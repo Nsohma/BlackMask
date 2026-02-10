@@ -1,0 +1,62 @@
+=== Count (id_count) ===
+N=51  exact=0.686  within1=0.745  MAE=1.353
+
+=== Per-subject attributes (DP aligned) ===
+N_samples=50
+avg aligned_mean (/min)=0.383  avg penalized_mean (/max)=0.328  avg |N-M|=0.660
+accuracy include None:
+  cropping    : 0.474  (n=116)
+  camera_angle: 0.302  (n=116)
+  pose        : 0.388  (n=116)
+  expression  : 0.388  (n=116)
+accuracy exclude GT None:
+  cropping    : 0.474  (n=116)
+  camera_angle: 0.318  (n=110)
+  pose        : 0.394  (n=104)
+  expression  : 0.442  (n=77)
+
+=== Per-subject attributes (DP aligned, multi-label micro P/R/F1) ===
+  cropping    : P=0.474 R=0.474 F1=0.474 (TP=55, FP=61, FN=61, pairs=116, skip=0)
+  camera_angle: P=0.318 R=0.226 F1=0.264 (TP=35, FP=75, FN=120, pairs=110, skip=6)
+  pose        : P=0.432 R=0.268 F1=0.331 (TP=41, FP=54, FN=112, pairs=104, skip=12)
+  expression  : P=0.459 R=0.415 F1=0.436 (TP=34, FP=40, FN=48, pairs=77, skip=39)
+
+=== Per-subject attributes (hit-based P/R/F1; denom=sets) ===
+  cropping    : P=0.474 R=0.369 F1=0.415 (hit=55, pred_sets=116, gt_sets=149)
+  camera_angle: P=0.302 R=0.235 F1=0.264 (hit=35, pred_sets=116, gt_sets=149)
+  pose        : P=0.388 R=0.302 F1=0.340 (hit=45, pred_sets=116, gt_sets=149)
+  expression  : P=0.388 R=0.302 F1=0.340 (hit=45, pred_sets=116, gt_sets=149)
+
+=== Per-subject attributes (hit-based P/R/F1; exclude GT None) ===
+  cropping    : P=0.474 R=0.369 F1=0.415 (hit=55, pred_sets=116, gt_sets=149, skip=0)
+  camera_angle: P=0.318 R=0.245 F1=0.277 (hit=35, pred_sets=110, gt_sets=143, skip=6)
+  pose        : P=0.394 R=0.308 F1=0.346 (hit=41, pred_sets=104, gt_sets=133, skip=12)
+  expression  : P=0.442 R=0.340 F1=0.384 (hit=34, pred_sets=77, gt_sets=100, skip=39)
+
+=== Props (set) ===
+N=51  microF1=0.150  P=0.391  R=0.093  avgJ=0.235  exact=0.196
+
+=== Interactions type-only (set) ===
+N=51  microF1=0.357  P=0.333  R=0.385  avgJ=0.745  exact=0.745
+
+Worst 10 samples by aligned_mean:
+  C017_B010: aligned=0.000 penalized=0.000 GT=1 Pred=1 pairs=[(0, 0)]
+       cropping=NG GT=['close_up'] PRED=['half'] | camera_angle=SKIP(GT None) | pose=SKIP(GT None) | expression=SKIP(GT None)
+  C023_A001: aligned=0.000 penalized=0.000 GT=1 Pred=1 pairs=[(0, 0)]
+       cropping=NG GT=['wide'] PRED=['half'] | camera_angle=NG GT=['three_quarter'] PRED=['profile'] | pose=NG GT=['持つ', '立つ'] PRED=['構える'] | expression=SKIP(GT None)
+  C035_B001: aligned=0.000 penalized=0.000 GT=1 Pred=1 pairs=[(0, 0)]
+       cropping=NG GT=['full'] PRED=['half'] | camera_angle=NG GT=['profile'] PRED=['front'] | pose=NG GT=['立つ'] PRED=['攻撃する'] | expression=NG GT=['無表情'] PRED=['緊張']
+  C042_C009: aligned=0.000 penalized=0.000 GT=1 Pred=1 pairs=[(0, 0)]
+       cropping=NG GT=['wide'] PRED=['half'] | camera_angle=NG GT=['low'] PRED=['profile'] | pose=SKIP(GT None) | expression=SKIP(GT None)
+  C092_A017: aligned=0.000 penalized=0.000 GT=1 Pred=1 pairs=[(0, 0)]
+       cropping=NG GT=['full'] PRED=['half'] | camera_angle=NG GT=['low'] PRED=['profile'] | pose=SKIP(GT None) | expression=SKIP(GT None)
+  C095_A017: aligned=0.000 penalized=0.000 GT=1 Pred=1 pairs=[(0, 0)]
+       cropping=NG GT=['full'] PRED=['half'] | camera_angle=NG GT=['low'] PRED=['high'] | pose=NG GT=['持つ'] PRED=['浮かれる'] | expression=NG GT=['怯え', '泣き'] PRED=['驚き']
+  C085_B016: aligned=0.062 penalized=0.062 GT=4 Pred=4 pairs=[(0, 0), (1, 1), (2, 2), (3, 3)]
+       cropping=NG GT=['half'] PRED=['bust'] | camera_angle=NG GT=['three_quarter'] PRED=['front'] | pose=NG GT=['持つ', '立つ'] PRED=['standing'] | expression=NG GT=['無表情'] PRED=['neutral']
+  C064_C010: aligned=0.083 penalized=0.062 GT=4 Pred=3 pairs=[(0, 0), (2, 1), (3, 2)]
+       cropping=NG GT=['half'] PRED=['bust'] | camera_angle=NG GT=['profile'] PRED=['front'] | pose=NG GT=['座る'] PRED=['指さす'] | expression=NG GT=['無表情'] PRED=['驚き']
+  C073_F018: aligned=0.125 penalized=0.125 GT=2 Pred=2 pairs=[(0, 0), (1, 1)]
+       cropping=OK GT=['bust'] PRED=['bust'] | camera_angle=NG GT=['three_quarter'] PRED=['front'] | pose=NG GT=['立つ'] PRED=['手を伸ばす'] | expression=NG GT=['怯え'] PRED=['驚き']
+  C076_F009: aligned=0.125 penalized=0.125 GT=2 Pred=2 pairs=[(0, 0), (1, 1)]
+       cropping=OK GT=['half'] PRED=['half'] | camera_angle=NG GT=['three_quarter'] PRED=['front'] | pose=NG GT=['構える', '立つ'] PRED=['攻撃する'] | expression=NG GT=['怒る'] PRED=['怒り']

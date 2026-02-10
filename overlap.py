@@ -121,7 +121,7 @@ def batch_run():
     base_dir = Path(__file__).resolve().parent
 
     lines_dir = base_dir / "05_raf_image_json"   # *_raf.json がある
-    bbox_dir  = base_dir / "04_output_grounding_dino_prompt_v1"         # *_sub.json がある
+    bbox_dir  = base_dir / "10_output_groundingdino_swiml_prompt_v1"         # *_sub.json がある
 
     out_dir   = base_dir / "06_overlap_out"
     out_dir.mkdir(parents=True, exist_ok=True)
